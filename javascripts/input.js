@@ -1,0 +1,14 @@
+{
+  "trips": [
+  {
+    "location": "test",
+    "location_type": "city",
+    "visited": false,
+    "reviews" [
+    {
+      "date": "now",
+      "text": "I loved it!",
+      "title": "My first trip to test",
+    }]
+  }]
+}
