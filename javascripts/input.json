@@ -1,6 +1,7 @@
 {
   "trips": [
   {
+    
     "location": "test",
     "location_type": "city",
     "visited": false,

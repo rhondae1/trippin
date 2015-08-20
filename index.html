@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title>Places</title>
+   <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+   <link href='http://fonts.googleapis.com/css?family=Poiret+One|Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="styles/main.css">
+ </head>
+
+ <body>
+  <p>messed up good!</p>
+
+   <div id="list-of-trips">
+    <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+     
+   
+   <form>
+     <div class="form-group">
+       <label for="locationtype">Location Type</label>
+       <input type="text" class="form-control" id="exampleInputEmail1" placeholder="City, State, Country, Province, etc.">
+     </div>
+     <div class="form-group">
+       <label for="locationname">Location Name</label>
+       <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Moscow">
+     </div>
+     <div class="form-group">
+       <label for="review">Review</label>
+       <textarea class="form-control" rows="3"></textarea>
+     </div>
+     <div class="btn-group" role="group" aria-label="...">
+       <button type="button" class="btn btn-default" id="visited">Visited</button>
+       <button type="button" class="btn btn-default" id="wish-list">Wish List</button>
+     </div>
+     <button type="submit" class="btn btn-default">Add Location</button>
+   </form>
+   </div>
+ 
+
+ <script data-main="javascripts/main"
+       src="lib/bower_components/requirejs/require.js"></script>
+ 
+ </body>
+</html>

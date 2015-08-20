@@ -9,7 +9,8 @@ define(function(require) {
        var loc_types = snapshot.val();
        // console.log(loc_types);
        
-   });    
+   }); 
+      
 
    myFirebaseRef.child("trips").on("value", function(snapshot) {
 

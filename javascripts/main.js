@@ -15,6 +15,7 @@ requirejs.config({
   }
 });
 
+
 requirejs(
   ["lodash", "jquery", "hbs", "bootstrap", "dom-access", "populate-songs", "get-more-songs", "filter"], 
   function(lodash, $, Handlebars, bootstrap, dom, pop, more, filter) {
