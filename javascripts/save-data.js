@@ -20,14 +20,14 @@ define(function(require){
   $("#add-location").click(function() {
     var newLocation = {
       location: $("#location-name").val(),
-      location_type: $("#location-type").val() || "city",
+      location_type: $("#location-type").val(),
       visited: visited
     };
 
     console.log("newLocation", newLocation);
 
     $.ajax({
-      url: "https://nns-steve-trippin.firebaseio.com/trips.json",
+      url: "https://rhonda-b-trippin.firebaseio.com/trips/trips.json",
       method: "POST",
       data: JSON.stringify(newLocation)
     })
@@ -37,7 +37,6 @@ define(function(require){
     .fail(function(xhr, status, error) {
       console.log("error", error);
     });
-
-
   });
 });
+

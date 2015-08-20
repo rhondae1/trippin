@@ -3,7 +3,7 @@ define(function(require) {
    var $ = require("jquery");
    var templates = require("get-templates");
    
-   var myFirebaseRef = new Firebase("https://trippin-out.firebaseio.com/");
+   var myFirebaseRef = new Firebase("https://rhonda-b-trippin.firebaseio.com/trips/");
 
    myFirebaseRef.child("loc_types").on("value", function(snapshot) {
        var loc_types = snapshot.val();
